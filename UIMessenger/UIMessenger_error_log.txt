@@ -1,0 +1,10 @@
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.net.SocketInputStream.read(SocketInputStream.java:223)
+	at java.io.ObjectInputStream$PeekInputStream.peek(ObjectInputStream.java:2321)
+	at java.io.ObjectInputStream$BlockDataInputStream.peek(ObjectInputStream.java:2614)
+	at java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:2624)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1321)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:373)
+	at Server$ClientHandler.run(Server.java:45)
